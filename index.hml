@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .flex-container{
+        border: solid black;
+        width: 700px;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        background-color: palegreen;
+        margin: 10px auto 0;
+         flex-wrap: wrap;
+        justify-content: flex-start;
+        /* align-items: baseline;  */
+        /* align-content: space-around;  */
+        /* align-items: flex-start ; */
+
+        
+        
+        
+    }
+    .flexitem1{
+        border: solid black;
+        width: 100px;
+        height: 50px;
+        background-color: red;
+       /* font-size: 30px;*/
+       /* align-self: auto ; */
+       /* flex-grow: 7; */
+       /* flex-basis: 300px;  */
+       /* flex-shrink: 0; */
+     }
+     .flexitem2{
+        border: solid black;
+        width: 100px;
+        height: 50px;
+        background-color: greenyellow;
+        /*font-size: 20px; */
+        /* order: -1; */
+     }
+     .flexitem3{
+        border: solid black;
+        width: 100px;
+        height: 50px;
+        background-color: blue;
+        /* order: -2; */
+        /*margin-left: auto;
+        margin-top: auto;
+        margin-right: auto;*/
+     }
+     .flexitem4{
+        border: solid black;
+        width: 100px;
+        height: 50px;
+        background-color: orange;
+        /* flex-grow: 4;  */
+     }
+     /*.flexitem5{
+        border: solid black;
+        width: 100px;
+        height: 50px;
+        background-color: maroon;
+     }
+     .flexitem6{
+        border: solid black;
+        width: 100px;
+        height: 50px;
+        background-color: purple;
+     }
+     .flexitem7{
+        border: solid black;
+        width: 100px;
+        height: 50px;
+        background-color: goldenrod;
+     }*/
+</style>
+<body>
+    <h1>CSS Flex Box</h1>
+    <div class="flex-container">
+         <div class="flexitem1 ">1 items</div>
+        <div class="flexitem2 ">2 items</div>
+        <div class="flexitem3 ">3 items</div>
+        <div class="flexitem4 ">4 items</div>
+        <!-- <div class="flexitem5 ">5 items</div>
+        <div class="flexitem6 ">6 items</div>
+        <div class="flexitem7 ">7 items</div> -->
+    </div>
+    
+</body>
+</html>
